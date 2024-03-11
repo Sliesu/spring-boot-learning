@@ -1,4 +1,4 @@
-package com.rainbowcloud.boot.controller;
+package com.rainbowcloud.springbootquickstart.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -7,8 +7,8 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
-import com.rainbowcloud.boot.domain.*;
-import com.rainbowcloud.boot.response.AjaxResponse;
+import com.rainbowcloud.springbootquickstart.domain.*;
+import com.rainbowcloud.springbootquickstart.response.AjaxResponse;
 import java.util.Date;
 import java.util.List;
 

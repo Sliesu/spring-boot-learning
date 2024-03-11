@@ -16,6 +16,8 @@
     <modules>
         <module>spring-boot-quickstart</module>
         <module>spring-boot-config</module>
+        <module>spring-boot-quickstart</module>
+        <module>spring-boot-quickstart</module>
     </modules>
     <packaging>pom</packaging>
     <properties>

@@ -1,4 +1,4 @@
-package com.rainbowcloud.boot.domain;
+package com.rainbowcloud.springbootquickstart.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

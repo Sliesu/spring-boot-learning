@@ -9,6 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
+    <groupId>com.rainbowcloud.quickstart</groupId>
     <artifactId>spring-boot-quickstart</artifactId>
 
     <properties>

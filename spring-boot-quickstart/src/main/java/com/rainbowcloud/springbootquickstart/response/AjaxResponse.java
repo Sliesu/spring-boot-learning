@@ -1,4 +1,4 @@
-package com.rainbowcloud.boot.response;
+package com.rainbowcloud.springbootquickstart.response;
 
 import lombok.Data;
 
