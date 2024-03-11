@@ -1,6 +1,6 @@
-![彩虹云Logo](C:\Users\DingYihang\Pictures\彩虹云Logo.png)
-# Spring Boot 学习项目
+<img src="doc/img/rbc-logo.png" style="width: 40%;" alt="RBC Logo"/>
 
+# Spring Boot 学习项目
 @RainbowCloud_CrispShark
 
 **一、Spring Boot 起步练习**
