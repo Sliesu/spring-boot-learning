@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: dev
+
+
+
+family:
+  family-name: "happy family"
+  father: "Jack"
+  mother: "Rose"
+  child: "Tom"
+
+person:
+  name: zhangfei
+  age: 20
+  happy: false
+  birthday: 2001/07/08
+  maps: { k1:v1,k2:v2 }
+  lists:
+   - code
+   - girl
+   - music
+  dog:
+    name: 狗子
+    age: 11
