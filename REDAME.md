@@ -1,6 +1,5 @@
-SpringBoot的学习目录
-
-1. SpringBoot入门
-2. SpringBoot配置文件
-3. SpringBoot日志
-4. SpringBootWeb开发
+# Spring Boot的学习项目
+## 1.Spring Boot 起步练习
+spring-boot-quickstart
+## 2.Spring Boot配置管理
+spring-boot-config
