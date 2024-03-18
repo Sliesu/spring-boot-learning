@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rainbowcloud.database.mapper.ArticleMapper">
+
+    <!-- 插入文章 -->
+    <insert id="insertArticle" parameterType="com.rainbowcloud.database.entity.Article">
+        INSERT INTO t_article (author, title, content)
+        VALUES (#{author}, #{title}, #{content})
+    </insert>
+
+    <!-- 更新文章 -->
+    <update id="updateArticle" parameterType="com.rainbowcloud.database.entity.Article">
+        UPDATE t_article
+        SET author = #{author}, title = #{title}, content = #{content}
+        WHERE id = #{id}
+    </update>
+
+    <!-- 删除文章 -->
+    <delete id="deleteArticle" parameterType="java.lang.Integer">
+        DELETE FROM t_article WHERE id = #{id}
+    </delete>
+
+    <!-- 查询文章列表 -->
+    <select id="selectArticleList" resultType="com.rainbowcloud.database.entity.Article">
+        SELECT * FROM t_article
+    </select>
+
+    <!-- 根据ID查询文章 -->
+    <select id="selectArticleById" resultType="com.rainbowcloud.database.entity.Article">
+        SELECT * FROM t_article WHERE id = #{id}
+    </select>
+
+</mapper>

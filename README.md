@@ -30,4 +30,11 @@
 
 ![](E:\WorkSpace\SpringBootProjects\spring-boot-learning\doc\img\jianshu-page.png)
 ------
+**四、Spring Boot 整合数据库框架**
 
+模块名称：`spring-boot-database`
+
+模块描述：
+本模块学习如何使用Spring Boot整合数据库框架，如MyBatis、JPA等。学习如何编写实体类，如何编写Mapper接口，如何编写Service接口，如何编写Controller接口。
+
+------

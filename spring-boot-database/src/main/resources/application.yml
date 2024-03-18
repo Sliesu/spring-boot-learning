@@ -10,3 +10,11 @@ spring:
         hbm2ddl:
           auto: update
     show-sql: true
+mybatis:
+  #指定相应接口对应的xml文件所在目录
+  mapper-locations: classpath:mapper/*.xml
+  #实体类所在的包
+  type-aliases-package: com.rainbowcloud.database.entity
+  configuration:
+    # mybatis开启驼峰式命名
+    map-underscore-to-camel-case: true
