@@ -18,6 +18,8 @@
         <module>spring-boot-config</module>
         <module>spring-boot-quickstart</module>
         <module>spring-boot-quickstart</module>
+        <module>spring-boot-mybaits</module>
+        <module>spring-boot-database</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
