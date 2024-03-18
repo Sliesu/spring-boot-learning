@@ -34,10 +34,10 @@ class ArticleJpaServiceImplTest {
     @Test
     void updateArticle() {
         Article article = Article.builder()
-                .id(9)
+                .id(3)
                 .author("dyh")
-                .title("Spring Boot JPA")
-                .content("Spring Boot JPA")
+                .title("Spring Boot JPA 2")
+                .content("Spring Boot JPA 2")
                 .build();
         articleJAPService.updataArticle(article);
     }

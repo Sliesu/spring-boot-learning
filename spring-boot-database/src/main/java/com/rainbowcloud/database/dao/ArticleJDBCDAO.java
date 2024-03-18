@@ -28,6 +28,18 @@ public class ArticleJDBCDAO {
     private JdbcTemplate jdbcTemplate;
 
     /**
+     * 新增文章
+     * @param article 入参对象
+     * @return 受影响的记录行数
+     */
+    public int save(Article article) {
+        String sql = "INSERT INTO t_article (author,title,content) VALUES (?,?,?) ";
+        return jdbcTemplate.update(sql, article.getAuthor(), article.getTitle(), article.getContent());
+    }
+
+
+
+    /**
      * 更新文章
      * @param article 入参对象
      * @return 受影响的记录行数
@@ -47,7 +59,7 @@ public class ArticleJDBCDAO {
      * @param id 文章id
      * @return 文章对象
      */
-    public Article findById(Long id) {
+    public Article findById(int id) {
         // queryForObject用于查询单条记录返回结果
         String sql = "SELECT * FROM t_article WHERE id = ?";
         return jdbcTemplate.queryForObject(sql, new Object[]{id}, new BeanPropertyRowMapper<>(Article.class));

@@ -27,7 +27,7 @@ class ArticleJDBCDAOTest {
                 .content("Spring Boot Content")
                 .build();
 
-        int n = articleJDBCDAO.updateById(article);
+        int n = articleJDBCDAO.save(article);
         log.info("Saved article with ID: {}", n);
 
     }
@@ -35,36 +35,38 @@ class ArticleJDBCDAOTest {
     @Test
     void updateById() {
         Article article = Article.builder()
+                .id(6)
                 .author("DingYihang")
-                .title("Spring Boot")
-                .content("Spring Boot Content")
+                .title("Spring Boot5")
+                .content("Spring Boot Content5")
                 .build();
 
         int n = articleJDBCDAO.updateById(article);
-        log.info("Saved article with ID: {}", n);
+        log.info("update article with  {}", articleJDBCDAO.findById(article.getId()));
     }
 
     @Test
     void findById() {
-        long id;
-        Scanner scanner = new Scanner(System.in);
-        id = scanner.nextLong();
-        Article article = articleJDBCDAO.findById(id);
-        log.info(article.toString());
+        Article article = articleJDBCDAO.findById(1);
+        System.out.println("**************************************************************");
+        System.out.println(article.toString());
+        System.out.println("**************************************************************");
+
+
     }
 
     @Test
     void findAll() {
         List<Article> articles = articleJDBCDAO.findAll();
-        log.info(articles.toString());
+        System.out.println("**************************************************************");
+        articles.forEach(System.out::println);
+        System.out.println("**************************************************************");
     }
 
     @Test
     void deleteById() {
-        long id;
-        Scanner scanner = new Scanner(System.in);
-        id = scanner.nextLong();
+        long id = 5;
         int n = articleJDBCDAO.deleteById(id);
-        log.info("Saved article with ID: {}", n);
+        log.info("deleted article with ID: {}", n);
     }
 }
