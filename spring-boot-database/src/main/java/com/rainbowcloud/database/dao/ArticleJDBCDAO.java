@@ -24,7 +24,7 @@ import java.util.List;
 @Repository
 public class ArticleJDBCDAO {
 
-    @Autowired
+    @Resource
     private JdbcTemplate jdbcTemplate;
 
     /**
