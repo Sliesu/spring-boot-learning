@@ -1,7 +1,6 @@
-package com.rainbowcloud.service;
+package com.rainbowcloud.boot.service;
 
-import com.rainbowcloud.entity.User;
-import org.springframework.stereotype.Service;
+import com.rainbowcloud.boot.entity.User;
 
 import java.util.List;
 

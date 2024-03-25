@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rainbowcloud.boot.mapper.ClazzMapper">
+    <resultMap id="clazzMap" type="Clazz">
+        <id column="clazz_id" property="clazzId" jdbcType="INTEGER"/>
+        <result column="clazz_name" property="clazzName" jdbcType="VARCHAR"/>
+        <association property="teacher" javaType="Teacher">
+            <id column="teacher_id" property="teacherId"/>
+            <result column="teacher_name" property="teacherName"/>
+        </association>
+        <collection property="students" ofType="Student">
+            <id column="student_id" property="studentId"/>
+            <result column="student_name" property="studentName"/>
+            <result column="hometown" property="hometown"/>
+        </collection>
+    </resultMap>
+
+    <select id="getClazzOneToMany" resultMap="clazzMap">
+        SELECT c.clazz_id, c.clazz_name, s.student_id, s.student_name, s.hometown
+        FROM t_clazz c,
+             t_student s
+        WHERE c.clazz_id = #{clazzId}
+          AND c.clazz_id = s.clazz_id
+    </select>
+    <select id="getClazz" resultMap="clazzMap">
+        SELECT c.clazz_id, c.clazz_name, t.teacher_id, t.teacher_name, s.student_id, s.student_name, s.hometown
+        FROM t_clazz c
+                 LEFT JOIN t_teacher t ON c.clazz_id = t.clazz_id
+                 LEFT JOIN t_student s ON c.clazz_id = s.clazz_id
+        WHERE c.clazz_id = #{clazzId}
+    </select>
+</mapper>

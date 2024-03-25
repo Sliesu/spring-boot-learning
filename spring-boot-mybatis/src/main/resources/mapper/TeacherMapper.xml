@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rainbowcloud.boot.mapper.TeacherMapper">
+    <resultMap id="teacherMap" type="Teacher">
+        <id column="teacher_id" property="teacherId"/>
+        <result column="teacher_name" property="teacherName"/>
+        <association property="clazz" javaType="Clazz">
+            <id column="clazz_id" property="clazzId"/>
+            <result column="clazz_name" property="clazzName"/>
+        </association>
+    </resultMap>
+
+
+    <select id="selectOneByOne" resultMap="teacherMap" parameterType="int">
+        SELECT *
+        FROM t_teacher t,
+             t_clazz c
+        WHERE t.teacher_id = #{teacherId}
+          AND t.clazz_id = c.clazz_id
+    </select>
+</mapper>

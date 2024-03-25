@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rainbowcloud.boot.mapper.CourseMapper">
+    <resultMap id="courseMap" type="Course">
+        <id column="course_id" property="courseId"/>
+        <result column="course_name" property="courseName"/>
+        <collection property="students" ofType="Student">
+            <id column="student_id" property="studentId"/>
+            <result column="student_name" property="studentName"/>
+            <result column="hometown" property="hometown"/>
+            <result column="birthday" property="birthday"/>
+        </collection>
+    </resultMap>
+    <select id="selectAll" resultMap="courseMap">
+        SELECT c.course_id, c.course_name, s.student_id, s.student_name, s.hometown, s.birthday
+        FROM t_course c
+                 LEFT JOIN t_course_student cs ON c.course_id = cs.course_id
+                 LEFT JOIN t_student s ON cs.student_id = s.student_id
+    </select>
+</mapper>

@@ -1,8 +1,8 @@
-package com.rainbowcloud.controller;
+package com.rainbowcloud.boot.controller;
 
-import com.rainbowcloud.entity.User;
-import com.rainbowcloud.response.AjaxResponse;
-import com.rainbowcloud.service.IUserService;
+import com.rainbowcloud.boot.entity.User;
+import com.rainbowcloud.boot.response.AjaxResponse;
+import com.rainbowcloud.boot.service.IUserService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.rainbowcloud.response;
+package com.rainbowcloud.boot.response;
 
 import lombok.Data;
 

@@ -1,8 +1,8 @@
-package com.rainbowcloud.service.impl;
+package com.rainbowcloud.boot.service.impl;
 
-import com.rainbowcloud.entity.User;
-import com.rainbowcloud.mapper.UserMapper;
-import com.rainbowcloud.service.IUserService;
+import com.rainbowcloud.boot.entity.User;
+import com.rainbowcloud.boot.service.IUserService;
+import com.rainbowcloud.boot.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;

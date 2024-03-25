@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rainbowcloud.boot.mapper.StudentMapper">
+
+    <insert id="insert" parameterType="Student">
+        INSERT INTO t_student (clazz_id, student_name, hometown, birthday)
+        VALUES (#{clazzId}, #{studentName}, #{hometown}, #{birthday})
+    </insert>
+
+
+    <select id="findStudentById" resultType="Student">
+        SELECT *
+        FROM t_student
+        WHERE student_id = #{studentId}
+    </select>
+
+    <update id="updateById" parameterType="Student">
+        UPDATE t_student
+        <set>
+            <if test="clazzId != null">
+                clazz_id = #{clazzId}
+            </if>
+            <if test="studentName != null">
+                student_name = #{studentName}
+            </if>
+            <if test="hometown != null">
+                hometown = #{hometown}
+            </if>
+            <if test="birthday != null">
+                birthday = #{birthday}
+            </if>
+        </set>
+        WHERE student_id = #{studentId}
+    </update>
+
+
+    <delete id="deleteById" parameterType="int">
+        DELETE
+        FROM t_student
+        WHERE student_id = #{studentId}
+    </delete>
+
+
+    <insert id="batchInsert" parameterType="Student">
+        INSERT INTO t_student VALUES
+        <foreach collection="students" item="student" index="index" separator=",">
+            (#{student.studentId},#{student.clazzId},#{student.studentName},#{student.hometown},#{student.birthday})
+        </foreach>
+    </insert>
+
+
+    <delete id="batchDelete" parameterType="int">
+        DELETE FROM t_student
+        WHERE student_id IN
+        <foreach collection="idList" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+
+    <update id="batchUpdate">
+
+    </update>
+
+
+    <select id="selectByDynamicSql" resultType="Student" parameterType="student">
+        SELECT *
+        FROM t_student
+        WHERE 1 = 1
+        <choose>
+            <when test="clazzId != null">
+                AND clazz_id = #{clazzId}
+            </when>
+            <when test="hometown != null">
+                AND hometown LIKE "%"#{hometown}"%"
+            </when>
+        </choose>
+    </select>
+    <resultMap id="studentMap" type="student">
+        <id column="student_id" property="studentId"/>
+        <result column="student_name" property="studentName"/>
+        <result column="hometown" property="hometown"/>
+        <result column="birthday" property="birthday"/>
+        <association property="clazz" javaType="Clazz">
+            <id column="clazz_id" property="clazzId"/>
+            <result column="clazz_name" property="clazzName"/>
+        </association>
+        <collection property="courses" ofType="Course">
+            <id column="course_id" property="courseId"/>
+            <result column="course_name" property="courseName"/>
+        </collection>
+    </resultMap>
+
+    <select id="getStudentManyToOne" resultMap="studentMap">
+        SELECT s.student_id, s.student_name, s.hometown, s.birthday, c.clazz_id, c.clazz_name
+        FROM t_student s,
+             t_clazz c
+        WHERE s.student_id = #{studentId}
+          AND s.clazz_id = c.clazz_id
+    </select>
+    <select id="getStudent" resultMap="studentMap" parameterType="int">
+        SELECT s.student_id,
+               s.student_name,
+               s.hometown,
+               s.birthday,
+               c.clazz_id,
+               c.clazz_name,
+               cc.course_id,
+               cc.course_name
+        FROM t_student s
+                 LEFT JOIN t_clazz c ON s.clazz_id = c.clazz_id
+                 LEFT JOIN t_course_student ts ON s.student_id = ts.student_id
+                 LEFT JOIN t_course cc ON ts.course_id = cc.course_id
+        WHERE s.student_id = #{studentId}
+    </select>
+</mapper>

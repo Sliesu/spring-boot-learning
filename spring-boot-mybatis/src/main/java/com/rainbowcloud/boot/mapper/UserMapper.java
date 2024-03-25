@@ -1,6 +1,6 @@
-package com.rainbowcloud.mapper;
+package com.rainbowcloud.boot.mapper;
 
-import com.rainbowcloud.entity.User;
+import com.rainbowcloud.boot.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 

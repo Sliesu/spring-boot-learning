@@ -9,7 +9,7 @@ import org.springframework.core.env.Environment;
 /**
  * @author DingYihang
  */
-@MapperScan(basePackages ={"com.rainbowcloud.mapper"})
+@MapperScan(basePackages ={"com.rainbowcloud.boot.mapper"})
 @Slf4j
 @SpringBootApplication
 public class MybatisApplication {
