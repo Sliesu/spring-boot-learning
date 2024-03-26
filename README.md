@@ -27,8 +27,8 @@
 
 模块描述：
 本模块示Spring Boot如何整合静态资源和模板引擎编写一个门户网站。学习如何将静态资源放置在正确的位置，以便Spring Boot能够自动识别和加载。学习如何使用模板引擎来构建静态页面，使用bootstrap框架仿制简书的推荐用户界面。
+<img src="doc\img\jianshu-page.png" style="width: 40%;" alt="RBC Logo"/>
 
-![](E:\WorkSpace\SpringBootProjects\spring-boot-learning\doc\img\jianshu-page.png)
 
 ------
 **四、Spring Boot 整合数据库框架**
