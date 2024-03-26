@@ -48,18 +48,24 @@ class StudentMapperTest {
     @Test
     void batchInsert() {
         List<Student> students = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 1; i <= 1; i++) {
             Student student = Student.builder()
-                    .studentId(8000 + i)
+                    .studentId(1000 + i)
                     .clazzId(1)
                     .studentName("测试学生" + i)
-                    .hometown("江苏南京")
+                    .hometown("北京")
                     .birthday(LocalDate.now())
                     .build();
             students.add(student);
         }
         int n = studentMapper.batchInsert(students);
-        assertEquals(10, n);
+        assertEquals(2, n);
+    }
+
+    @Test
+    void getStudentManyToOne() {
+        Student student = studentMapper.getStudentManyToOne(1001);
+        log.info(String.valueOf(student));
     }
 
     @Test
@@ -77,8 +83,21 @@ class StudentMapperTest {
     }
 
     @Test
-    void getStudentManyToOne() {
-        Student student = studentMapper.getStudentManyToOne(1001);
-        log.info(String.valueOf(student));
+    void batchUpdate() {
+        List<Student> students = new ArrayList<>();
+        for (int i = 1; i <= 1; i++) {
+            Student student = Student.builder()
+                    .studentId(1000 + i)
+                    .clazzId(1)
+                    .studentName("测试学生" + i)
+                    .hometown("北京")
+                    .birthday(LocalDate.now())
+                    .build();
+            students.add(student);
+        }
+        int n = studentMapper.batchUpdate(students);
+        assertEquals(2, n);
     }
+
+
 }

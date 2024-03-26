@@ -57,10 +57,56 @@
         </foreach>
     </delete>
 
-    <update id="batchUpdate">
+<!--    <update id="batchUpdate" parameterType="java.util.List">-->
+<!--        UPDATE t_student-->
+<!--        <set>-->
+<!--            <trim prefix="clazz_id = CASE" suffix="END,">-->
+<!--                <foreach collection="students" item="student">-->
+<!--                    WHEN student_id = #{student.studentId} THEN #{student.clazzId}-->
+<!--                </foreach>-->
+<!--            </trim>-->
+<!--            <trim prefix="student_name = CASE" suffix="END,">-->
+<!--                <foreach collection="students" item="student">-->
+<!--                    WHEN student_id = #{student.studentId} THEN #{student.studentName}-->
+<!--                </foreach>-->
+<!--            </trim>-->
+<!--            <trim prefix="hometown = CASE" suffix="END,">-->
+<!--                <foreach collection="students" item="student">-->
+<!--                    WHEN student_id = #{student.studentId} THEN #{student.hometown}-->
+<!--                </foreach>-->
+<!--            </trim>-->
+<!--            <trim prefix="birthday = CASE" suffix="END,">-->
+<!--                <foreach collection="students" item="student">-->
+<!--                    WHEN student_id = #{student.studentId} THEN #{student.birthday}-->
+<!--                </foreach>-->
+<!--            </trim>-->
+<!--        </set>-->
+<!--        WHERE student_id IN-->
+<!--        <foreach collection="students" item="student" separator="," open="(" close=")">-->
+<!--            #{student.studentId}-->
+<!--        </foreach>-->
+<!--    </update>-->
 
+    <update id="batchUpdate" parameterType="List">
+        <foreach collection="students" item="student" index="index" open="" close="" separator=";">
+            UPDATE t_student t
+            <set>
+                <if test="student.clazzId != null">
+                    clazz_id = #{student.clazzId}<if test="student.studentName != null">,</if>
+                </if>
+                <if test="student.studentName != null">
+                    student_name = #{student.studentName}<if test="student.hometown != null">,</if>
+                </if>
+                <if test="student.hometown != null">
+                    hometown = #{student.hometown}<if test="student.birthday != null">,</if>
+                </if>
+                <if test="student.birthday != null">
+                    birthday = #{student.birthday}
+                </if>
+            </set>
+            WHERE t.student_id = #{student.studentId}
+        </foreach>
     </update>
-
 
     <select id="selectByDynamicSql" resultType="Student" parameterType="student">
         SELECT *

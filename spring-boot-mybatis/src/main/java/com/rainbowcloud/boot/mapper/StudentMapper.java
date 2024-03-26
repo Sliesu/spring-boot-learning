@@ -6,11 +6,10 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
+
 /**
- * @author mqxu
- * @date 2024/3/25
- * @description StudentMapper
- **/
+ * @author DingYihang
+ */
 public interface StudentMapper {
     int insert(Student student);
 
