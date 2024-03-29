@@ -2,6 +2,9 @@ package com.rainbowcloud.boot.mapper;
 
 import com.rainbowcloud.boot.entity.Clazz;
 
+/**
+ * @author DingYihang
+ */
 public interface ClazzMapper {
     /**
      * 根据班级id查询班级信息

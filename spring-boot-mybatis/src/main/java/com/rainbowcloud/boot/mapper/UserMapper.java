@@ -24,6 +24,4 @@ public interface UserMapper {
 
         int updateByPrimaryKey(User record);
 
-        @Select("SELECT * FROM user ")
-        List<User> selectAll();
 }

@@ -17,5 +17,6 @@ class TeacherMapperTest {
     void selectOneByOne() {
         Teacher teacher = teacherMapper.selectOneByOne(1);
         log.info(teacher.getTeacherName() + "," + teacher.getClazz().getClazzName());
+
     }
 }

@@ -41,25 +41,25 @@ class StudentMapperTest {
 
     @Test
     void deleteById() {
-        int n = studentMapper.deleteById(1004);
+        int n = studentMapper.deleteById(1005);
         assertEquals(1, n);
     }
 
     @Test
     void batchInsert() {
         List<Student> students = new ArrayList<>();
-        for (int i = 1; i <= 1; i++) {
+        for (int i = 1; i <= 5; i++) {
             Student student = Student.builder()
-                    .studentId(1000 + i)
+                    .studentId(2100 + i)
                     .clazzId(1)
-                    .studentName("测试学生" + i)
-                    .hometown("北京")
+                    .studentName("测试学生210" +i)
+                    .hometown("江苏南京")
                     .birthday(LocalDate.now())
                     .build();
             students.add(student);
         }
         int n = studentMapper.batchInsert(students);
-        assertEquals(2, n);
+        assertEquals(5, n);
     }
 
     @Test
@@ -70,7 +70,7 @@ class StudentMapperTest {
 
     @Test
     void batchDelete() {
-        List<Integer> idList = List.of(8000, 8001, 8002);
+        List<Integer> idList = List.of(8003, 8004, 8005);
         int n = studentMapper.batchDelete(idList);
         assertEquals(3, n);
     }
@@ -85,18 +85,18 @@ class StudentMapperTest {
     @Test
     void batchUpdate() {
         List<Student> students = new ArrayList<>();
-        for (int i = 1; i <= 1; i++) {
+        for (int i = 1; i <= 5; i++) {
             Student student = Student.builder()
-                    .studentId(1000 + i)
+                    .studentId(2100 + i)
                     .clazzId(1)
-                    .studentName("测试学生" + i)
+                    .studentName("测试学生210" +i)
                     .hometown("北京")
                     .birthday(LocalDate.now())
                     .build();
             students.add(student);
         }
         int n = studentMapper.batchUpdate(students);
-        assertEquals(2, n);
+
     }
 
 

@@ -87,20 +87,23 @@
 <!--        </foreach>-->
 <!--    </update>-->
 
-    <update id="batchUpdate" parameterType="List">
-        <foreach collection="students" item="student" index="index" open="" close="" separator=";">
+    <update id="batchUpdate" parameterType="java.util.List">
+        <foreach collection="students" item="student" index="index" open="" close="" separator="; ">
             UPDATE t_student t
             <set>
                 <if test="student.clazzId != null">
-                    clazz_id = #{student.clazzId}<if test="student.studentName != null">,</if>
+                    clazz_id = #{student.clazzId}
                 </if>
                 <if test="student.studentName != null">
-                    student_name = #{student.studentName}<if test="student.hometown != null">,</if>
+                    <if test="student.clazzId != null">,</if>
+                    student_name = #{student.studentName}
                 </if>
                 <if test="student.hometown != null">
-                    hometown = #{student.hometown}<if test="student.birthday != null">,</if>
+                    <if test="student.clazzId != null or student.studentName != null">,</if>
+                    hometown = #{student.hometown}
                 </if>
                 <if test="student.birthday != null">
+                    <if test="student.clazzId != null or student.studentName != null or student.hometown != null">,</if>
                     birthday = #{student.birthday}
                 </if>
             </set>

@@ -39,3 +39,10 @@
 本模块学习如何使用Spring Boot整合数据库框架，如MyBatis、JPA等。学习如何编写实体类，如何编写Mapper接口，如何编写Service接口，如何编写Controller接口。
 
 ------
+**五、Spring Boot 整合Mybatis综合练习**
+
+模块名称：`spring-boot-mybatis`
+
+模块描述：
+本模块学习如何使用Spring Boot整合mybatis。实现MyBatis的关联查询，如一对一，一对多，多对一，模糊查询，多表查询等，并编写测试类测试Mapper执行的结果。
+------
