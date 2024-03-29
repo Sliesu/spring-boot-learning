@@ -3,7 +3,7 @@
 # Spring Boot 学习项目
 @RainbowCloud_CrispShark
 
-**一、Spring Boot 起步练习**
+**一、Spring Boot起步练习**
 
 模块名称：`spring-boot-quickstart`
 
@@ -12,7 +12,7 @@
 
 ------
 
-**二、Spring Boot 配置管理**
+**二、Spring Boot配置管理**
 
 模块名称：`spring-boot-config`
 
@@ -21,7 +21,7 @@
 
 ------
 
-**三、Spring Boot 整合静态资源与模板引擎**
+**三、Spring Boot整合静态资源与模板引擎**
 
 模块名称：`spring-boot-template`
 
@@ -30,7 +30,7 @@
 
 <img src="doc\img\jianshu-page.png" style="width: 40%;" alt="RBC Logo"/>
 ------
-**四、Spring Boot 整合数据库框架**
+**四、Spring Boot整合数据库框架**
 
 模块名称：`spring-boot-database`
 
@@ -38,10 +38,24 @@
 本模块学习如何使用Spring Boot整合数据库框架，如MyBatis、JPA等。学习如何编写实体类，如何编写Mapper接口，如何编写Service接口，如何编写Controller接口。
 
 ------
-**五、Spring Boot 整合Mybatis综合练习**
+**五、Spring Boot整合Mybatis综合练习**
 
 模块名称：`spring-boot-mybatis`
 
 模块描述：
 本模块学习如何使用Spring Boot整合mybatis。实现MyBatis的关联查询，如一对一，一对多，多对一，模糊查询，多表查询等，并编写测试类测试Mapper执行的结果。
 ------
+**六、Spring Boot整合Mybatis-plus综合练习**
+
+模块名称：`spring-boot-mybatis-plus`
+
+模块描述：
+本模块学习如何使用Spring Boot整合Mybatis-plus。学习如何使用Mybatis-plus的注解方式实现CRUD操作，如何使用Mybatis-plus的条件构造器，如何使用Mybatis-plus的分页插件等，如何使用Mybatis-plus的BaseMapper简化Mapper书写。
+
+------
+**待定、Spring Boot整合Redis缓存数据库**
+
+模块名称：`spring-boot-redis`
+
+模块描述：
+本模块学习如何使用Spring Boot整合Redis缓存数据库。Redis是一个开源的、使用ANSI C语言编写的、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库。学习如何使用Spring Boot整合Redis，如何使用RedisTemplate操作Redis，如何使用Redis缓存数据，提高系统性能。
