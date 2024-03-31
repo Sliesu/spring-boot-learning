@@ -1,7 +1,11 @@
 package com.rbc.boot.mybatisplus.mapper;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
+import com.baomidou.mybatisplus.core.toolkit.StringUtils;
+import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
 import com.rbc.boot.mybatisplus.entity.User;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
@@ -109,4 +113,74 @@ class UserMapperTest {
         System.out.println("影响记录数：" + rows);
     }
 
+
+    /**
+     * 测试 MP 的条件构造器 like 方法
+     * <p>
+     * SELECT id, name, age , email, create_time
+     * FROM t_user
+     * WHERE name LIKE %字母%
+     */
+    @Test
+    void testLike() {
+        String name = "Jone" ; //name不为空
+        String email = "" ; //email为空串
+        QueryWrapper<User> query = new QueryWrapper<>();
+        query.like(StringUtils.isNotEmpty(name), "name", name);
+        //因为email为空串，该条件未生效.like(StringUtils.isNotEmpty(email),"email", email);
+        List<User> list = userMapper.selectList(query);
+        list.forEach(System.out::println);
+    }
+
+    /**
+     * 测试 MP 的条件构造器 allEq 方法
+     * <p>
+     * SELECT id, name , age , email, create_time
+     * FROM t_user
+     * WHERE age = ?
+     */
+    @Test
+    void testAllEq() {
+        //构造条件
+        QueryWrapper<User> query = new QueryWrapper<>();
+        Map<String, Object> params = new HashMap<>();
+        params.put("name", " zhangsan ");
+        params.put("age",28);
+        params.put("email", null);
+        query.allEq((k, v) -> !k.equals("name"), params, false);
+        List<User> list = userMapper.selectList(query);
+        list.forEach(System.out::println);
+    }
+
+    /**
+     * lambda条件构造器
+     * <p>
+     * SELECT id, name , age , email
+     * FROM t_user
+     * WHERE (name LIKE ? AND age < ?)
+     */
+    @Test
+    void testLambda() {
+        LambdaQueryWrapper<User> lambdaQ = Wrappers.lambdaQuery();
+        lambdaQ.like(User::getName, "Jo") // 性别包含Jo
+                 .lt(User::getAge, 30); // 年龄小于30
+        List<User> list = userMapper. selectList(lambdaQ);
+        list.forEach(System.out::println);
+    }
+
+    /**
+     * lambda条件构造器
+     * <p>
+     * SELECT id , name, age , email, create_time
+     * FROM t_user
+     * WHERE name LIKE 'Jack%'
+     * AND ( age < 18 OR email IS NOT NULL )
+     */
+    @Test
+    void testLambda2() {
+        List<User> list = new LambdaQueryChainWrapper<>(userMapper)
+            .likeRight(User::getName, "Jo")
+            .and(q -> q.lt(User::getAge, 30).or().isNotNull(User::getEmail)).list();
+        list.forEach(System.out::println);
+    }
 }
