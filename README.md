@@ -29,7 +29,9 @@
 本模块示Spring Boot如何整合静态资源和模板引擎编写一个门户网站。学习如何将静态资源放置在正确的位置，以便Spring Boot能够自动识别和加载。学习如何使用模板引擎来构建静态页面，使用bootstrap框架仿制简书的推荐用户界面。
 
 <img src="doc\img\jianshu-page.png" style="width: 40%;" alt="RBC Logo"/>
+
 ------
+
 **四、Spring Boot整合数据库框架**
 
 模块名称：`spring-boot-database`
@@ -38,13 +40,16 @@
 本模块学习如何使用Spring Boot整合数据库框架，如MyBatis、JPA等。学习如何编写实体类，如何编写Mapper接口，如何编写Service接口，如何编写Controller接口。
 
 ------
+
 **五、Spring Boot整合Mybatis综合练习**
 
 模块名称：`spring-boot-mybatis`
 
 模块描述：
 本模块学习如何使用Spring Boot整合mybatis。实现MyBatis的关联查询，如一对一，一对多，多对一，模糊查询，多表查询等，并编写测试类测试Mapper执行的结果。
+
 ------
+
 **六、Spring Boot整合Mybatis-plus综合练习**
 
 模块名称：`spring-boot-mybatis-plus`
@@ -58,4 +63,4 @@
 模块名称：`spring-boot-redis`
 
 模块描述：
-本模块学习如何使用Spring Boot整合Redis缓存数据库。Redis是一个开源的、使用ANSI C语言编写的、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库。学习如何使用Spring Boot整合Redis，如何使用RedisTemplate操作Redis，如何使用Redis缓存数据，提高系统性能。
+本模块学习如何使用Spring Boot整合Redis缓存数据库。学习使用Spring Boot整合Redis，如何使用RedisTemplate操作Redis，如何使用Redis缓存数据，提高系统性能。
