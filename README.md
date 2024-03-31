@@ -1,6 +1,12 @@
 <img src="doc/img/rbc-logo.png" style="width: 40%;" alt="RBC Logo"/>
 
 # Spring Boot 学习项目
+![Spring Boot 3.2.3](https://img.shields.io/badge/Spring%20Boot-3.2.3-brightgreen.svg)
+![Mysql 8.0.32](https://img.shields.io/badge/Mysql-8.0.32-blue.svg)
+![JDK 17](https://img.shields.io/badge/JDK-17-brightgreen.svg)
+![Maven](https://img.shields.io/badge/Maven-3.9.6-yellowgreen.svg)
+![license](https://img.shields.io/badge/license-MulanPSL2.0-blue.svg)
+
 @RainbowCloud_CrispShark
 
 **一、Spring Boot起步练习**
