@@ -1,12 +1,11 @@
 package com.rainbowcloud.database.dao;
 
-import com.rainbowcloud.database.entity.Article;
+import com.rainbowcloud.boot.database.dao.ArticleJpaDAO;
+import com.rainbowcloud.boot.database.entity.Article;
 import jakarta.annotation.Resource;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 
 class ArticleJpaDAOTest {

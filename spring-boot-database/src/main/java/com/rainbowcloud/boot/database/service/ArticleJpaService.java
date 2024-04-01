@@ -1,6 +1,6 @@
-package com.rainbowcloud.database.service;
+package com.rainbowcloud.boot.database.service;
 
-import com.rainbowcloud.database.entity.Article;
+import com.rainbowcloud.boot.database.entity.Article;
 
 import java.util.List;
 

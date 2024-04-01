@@ -40,5 +40,10 @@
             <artifactId> mybatis-spring-boot-starter</artifactId>
             <version>3.0.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 </project>

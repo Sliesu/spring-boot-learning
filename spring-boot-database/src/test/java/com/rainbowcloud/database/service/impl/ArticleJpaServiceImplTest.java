@@ -1,6 +1,7 @@
 package com.rainbowcloud.database.service.impl;
 
-import com.rainbowcloud.database.entity.Article;
+import com.rainbowcloud.boot.database.entity.Article;
+import com.rainbowcloud.boot.database.service.impl.ArticleJpaServiceImpl;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -8,8 +9,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @author DEZ

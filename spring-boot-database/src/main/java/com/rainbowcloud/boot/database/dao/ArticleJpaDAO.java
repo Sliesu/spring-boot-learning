@@ -1,6 +1,6 @@
-package com.rainbowcloud.database.dao;
+package com.rainbowcloud.boot.database.dao;
 
-import com.rainbowcloud.database.entity.Article;
+import com.rainbowcloud.boot.database.entity.Article;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.JpaRepository;
 

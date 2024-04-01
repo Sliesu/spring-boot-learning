@@ -3,6 +3,8 @@ package com.rbc.boot.springbootmp.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.rbc.boot.springbootmp.entity.UserDO;
 import com.rbc.boot.springbootmp.mapper.UserMapper;
 import jakarta.annotation.Resource;
@@ -91,6 +93,20 @@ class UserServiceImplTest {
         wrapper.select("max(id) as id");
         UserDO user = userMapper.selectOne(wrapper);
         System.out.println(user);
+    }
+
+    /**
+     * 查询分页
+     *
+     * SELECT id,username,phone,gender AS gander,create_time,update_time,deleted
+     * FROM user WHERE deleted=0
+     */
+    @Test
+    void selectPage(){
+        Page<UserDO> page = new Page<>(2, 2);
+        IPage<UserDO> userIPage = userMapper.selectPage(page, null);
+        System.out.println(userIPage);
+
     }
 
 

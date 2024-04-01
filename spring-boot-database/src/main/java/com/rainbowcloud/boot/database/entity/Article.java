@@ -1,4 +1,4 @@
-package com.rainbowcloud.database.entity;
+package com.rainbowcloud.boot.database.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

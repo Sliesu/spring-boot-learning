@@ -1,6 +1,6 @@
-package com.rainbowcloud.database.mapper;
+package com.rainbowcloud.boot.database.mapper;
 
-import com.rainbowcloud.database.entity.Article;
+import com.rainbowcloud.boot.database.entity.Article;
 
 import java.util.List;
 

@@ -1,6 +1,7 @@
 package com.rainbowcloud.database.dao;
 
-import com.rainbowcloud.database.entity.Article;
+import com.rainbowcloud.boot.database.dao.ArticleJDBCDAO;
+import com.rainbowcloud.boot.database.entity.Article;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -8,7 +9,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.List;
-import java.util.Scanner;
 
 
 @SpringBootTest

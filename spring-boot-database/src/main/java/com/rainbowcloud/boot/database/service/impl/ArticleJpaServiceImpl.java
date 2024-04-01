@@ -1,8 +1,8 @@
-package com.rainbowcloud.database.service.impl;
+package com.rainbowcloud.boot.database.service.impl;
 
-import com.rainbowcloud.database.dao.ArticleJpaDAO;
-import com.rainbowcloud.database.entity.Article;
-import com.rainbowcloud.database.service.ArticleJpaService;
+import com.rainbowcloud.boot.database.dao.ArticleJpaDAO;
+import com.rainbowcloud.boot.database.entity.Article;
+import com.rainbowcloud.boot.database.service.ArticleJpaService;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 
