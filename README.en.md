@@ -65,6 +65,21 @@ This module teaches how to integrate Mybatis-plus in Spring Boot. It covers usin
 
 ------
 
+**VII. Spring Boot Logging Framework and Log Management**
+
+Module Name: `spring-boot-log`
+
+Module Description: This module focuses on how to configure and manage logs in Spring Boot, including:
+
+1. Using Spring Boot's default Logback logging framework
+2. Using log4j2 as the logging framework
+3. Configuring log4j2 log levels
+4. Configuring log4j2 log formats
+5. Configuring log4j2 log paths (console, file, rolling file, etc.)
+6. Using the Logging system provided by Spring Boot
+
+------
+
 **Pending - Integrating Redis Cache Database in Spring Boot**
 
 Module Name: `spring-boot-redis`

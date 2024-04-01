@@ -58,12 +58,22 @@
 
 **六、Spring Boot整合Mybatis-plus综合练习**
 
-模块名称：`spring-boot-mybatis-plus`
+模块名称：`spring-boot-mybatis-plus`和`spring-boot-mp`
 
 模块描述：
 本模块学习如何使用Spring Boot整合Mybatis-plus。学习如何使用Mybatis-plus的注解方式实现CRUD操作，如何使用Mybatis-plus的条件构造器，如何使用Mybatis-plus的分页插件等，如何使用Mybatis-plus的BaseMapper简化Mapper书写。
 
 ------
+
+**七、Spring Boot日志框架与日志管理**
+
+模块名称：`spring-boot-log`
+
+模块描述：
+本模块学习如何在Spring Boot中配置和管理日志,包括:使用Spring Boot默认的Logback日志框架、使用log4j2日志框架、配置log4j2的日志级别、配置log4j2的日志格式、配置log4j2的日志路径(控制台,文件,滚动文件等)、使用Spring Boot提供的Logging系统。
+
+------
+
 **待定、Spring Boot整合Redis缓存数据库**
 
 模块名称：`spring-boot-redis`
