@@ -23,27 +23,39 @@ public class UserDO implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
+    /**
+     * 用户名
+     */
     @TableField("username")
     private String username;
 
-
+    /**
+     * 手机号
+     */
     @TableField("phone")
     private String phone;
 
+    /**
+     * 性别
+     */
     @TableField("gender")
-    private String gander;
+    private String gender;
 
+    /**
+     * 创建时间
+     */
     @TableField(value = "create_time",fill = FieldFill.INSERT)
     private LocalDateTime createTime;
 
-    @TableField(value = "update_time",fill = FieldFill.UPDATE)
+    /**
+     * 更新时间
+     */
+    @TableField(value = "update_time",fill = FieldFill.INSERT_UPDATE)
     private LocalDateTime updateTime;
 
     /**
-     * 删除
-     * 0-未删除 1-已删除
+     * 1、删除 0、未删除
      */
     @TableField("deleted")
     private Integer deleted;
-
 }

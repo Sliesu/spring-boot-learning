@@ -107,3 +107,33 @@
 2024-04-01 18:51:41,347 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8081"]
 2024-04-01 18:51:41,365 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8081 (http) with context path ''
 2024-04-01 18:51:41,382 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[56][0;39m : Started LogApplication in 1.762 seconds (process running for 2.177)
+2024-04-01 19:02:23,635 [INFO] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[211][0;39m : Restarting due to 6 class path changes (0 additions, 3 deletions, 3 modifications)
+2024-04-01 19:02:23,639 [INFO] [Thread-5] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Stopping ProtocolHandler ["http-nio-8081"]
+2024-04-01 19:02:23,723 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.6 with PID 31600 (E:\WorkSpace\SpringBootProjects\spring-boot-learning\spring-boot-log\target\classes started by DingYihang in E:\WorkSpace\SpringBootProjects\spring-boot-learning)
+2024-04-01 19:02:23,723 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 19:02:23,855 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8081 (http)
+2024-04-01 19:02:23,856 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-01 19:02:23,856 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 19:02:23,856 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 19:02:23,867 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 19:02:23,867 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 142 ms
+2024-04-01 19:02:23,928 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 19:02:23,932 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8081"]
+2024-04-01 19:02:23,934 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8081 (http) with context path ''
+2024-04-01 19:02:23,938 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[56][0;39m : Started LogApplication in 0.247 seconds (process running for 644.735)
+2024-04-01 19:02:23,940 [INFO] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[63][0;39m : Condition evaluation unchanged
+2024-04-01 19:02:25,348 [INFO] [File Watcher] [36mo.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[211][0;39m : Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2024-04-01 19:02:25,349 [INFO] [Thread-7] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Stopping ProtocolHandler ["http-nio-8081"]
+2024-04-01 19:02:25,438 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.6 with PID 31600 (E:\WorkSpace\SpringBootProjects\spring-boot-learning\spring-boot-log\target\classes started by DingYihang in E:\WorkSpace\SpringBootProjects\spring-boot-learning)
+2024-04-01 19:02:25,438 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 19:02:25,550 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8081 (http)
+2024-04-01 19:02:25,550 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-01 19:02:25,551 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 19:02:25,551 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 19:02:25,562 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 19:02:25,562 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 122 ms
+2024-04-01 19:02:25,610 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 19:02:25,615 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8081"]
+2024-04-01 19:02:25,617 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8081 (http) with context path ''
+2024-04-01 19:02:25,623 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[56][0;39m : Started LogApplication in 0.213 seconds (process running for 646.418)
+2024-04-01 19:02:25,623 [INFO] [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[63][0;39m : Condition evaluation unchanged
