@@ -1,0 +1,17 @@
+
+spring:
+  profiles:
+    active: dev
+
+
+# 在 application.yml 中配置
+
+logging:
+  level:
+    root: DEBUG
+  file:
+    path: ./logs/
+    name: ./logs/app.log
+  pattern:
+    console: '%red(%d{yyyy-MM-dd HH:mm:ss}) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger{10}) - %cyan(%msg%n)'
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t] %c{1.} [%X{traceId:-}] %msg%n"

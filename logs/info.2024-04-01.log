@@ -1,0 +1,109 @@
+2024-04-01 17:04:37,096 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.6 with PID 4548 (E:\WorkSpace\SpringBootProjects\spring-boot-learning\spring-boot-log\target\classes started by DingYihang in E:\WorkSpace\SpringBootProjects\spring-boot-learning)
+2024-04-01 17:04:37,098 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 17:04:37,131 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 17:04:37,131 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 17:04:37,852 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8081 (http)
+2024-04-01 17:04:37,862 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-01 17:04:37,866 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 17:04:37,866 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:04:37,914 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 17:04:37,914 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 781 ms
+2024-04-01 17:04:38,211 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 17:04:38,225 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8081"]
+2024-04-01 17:04:38,239 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8081 (http) with context path ''
+2024-04-01 17:04:38,254 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[56][0;39m : Started LogApplication in 1.551 seconds (process running for 1.991)
+2024-04-01 17:04:50,115 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.6 with PID 13420 (E:\WorkSpace\SpringBootProjects\spring-boot-learning\spring-boot-log\target\classes started by DingYihang in E:\WorkSpace\SpringBootProjects\spring-boot-learning)
+2024-04-01 17:04:50,117 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 17:04:50,156 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 17:04:50,156 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 17:04:50,860 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8081 (http)
+2024-04-01 17:04:50,869 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-01 17:04:50,873 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 17:04:50,873 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:04:50,932 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 17:04:50,932 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 776 ms
+2024-04-01 17:04:51,230 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 17:04:51,242 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8081"]
+2024-04-01 17:04:51,256 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8081 (http) with context path ''
+2024-04-01 17:04:51,268 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[56][0;39m : Started LogApplication in 1.572 seconds (process running for 2.001)
+2024-04-01 17:05:18,131 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.6 with PID 18072 (E:\WorkSpace\SpringBootProjects\spring-boot-learning\spring-boot-log\target\classes started by DingYihang in E:\WorkSpace\SpringBootProjects\spring-boot-learning)
+2024-04-01 17:05:18,133 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 17:05:18,165 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 17:05:18,166 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 17:05:18,886 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8081 (http)
+2024-04-01 17:05:18,896 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-01 17:05:18,899 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 17:05:18,899 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:05:18,947 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 17:05:18,947 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 781 ms
+2024-04-01 17:05:19,232 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 17:05:19,242 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8081"]
+2024-04-01 17:05:19,256 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8081 (http) with context path ''
+2024-04-01 17:05:19,270 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[56][0;39m : Started LogApplication in 1.553 seconds (process running for 1.962)
+2024-04-01 17:06:31,834 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.6 with PID 29756 (E:\WorkSpace\SpringBootProjects\spring-boot-learning\spring-boot-log\target\classes started by DingYihang in E:\WorkSpace\SpringBootProjects\spring-boot-learning)
+2024-04-01 17:06:31,836 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 17:06:31,879 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 17:06:31,879 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 17:06:32,687 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8081 (http)
+2024-04-01 17:06:32,701 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-01 17:06:32,703 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 17:06:32,703 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:06:32,752 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 17:06:32,752 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 873 ms
+2024-04-01 17:06:33,100 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 17:06:33,113 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8081"]
+2024-04-01 17:06:33,129 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8081 (http) with context path ''
+2024-04-01 17:06:33,146 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[56][0;39m : Started LogApplication in 1.822 seconds (process running for 2.337)
+2024-04-01 17:07:01,272 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.6 with PID 15560 (E:\WorkSpace\SpringBootProjects\spring-boot-learning\spring-boot-log\target\classes started by DingYihang in E:\WorkSpace\SpringBootProjects\spring-boot-learning)
+2024-04-01 17:07:01,276 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 17:07:01,319 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 17:07:01,319 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 17:07:02,112 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8081 (http)
+2024-04-01 17:07:02,124 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-01 17:07:02,127 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 17:07:02,127 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:07:02,183 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 17:07:02,183 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 864 ms
+2024-04-01 17:07:02,539 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 17:07:02,554 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8081"]
+2024-04-01 17:07:02,577 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8081 (http) with context path ''
+2024-04-01 17:07:02,592 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[56][0;39m : Started LogApplication in 1.801 seconds (process running for 2.25)
+2024-04-01 17:07:47,072 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.6 with PID 8368 (E:\WorkSpace\SpringBootProjects\spring-boot-learning\spring-boot-log\target\classes started by DingYihang in E:\WorkSpace\SpringBootProjects\spring-boot-learning)
+2024-04-01 17:07:47,074 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 17:07:47,106 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 17:07:47,106 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 17:07:47,800 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8081 (http)
+2024-04-01 17:07:47,809 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-01 17:07:47,812 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 17:07:47,812 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 17:07:47,859 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 17:07:47,859 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 751 ms
+2024-04-01 17:07:48,148 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 17:07:48,161 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8081"]
+2024-04-01 17:07:48,181 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8081 (http) with context path ''
+2024-04-01 17:07:48,194 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[56][0;39m : Started LogApplication in 1.529 seconds (process running for 1.961)
+2024-04-01 18:49:51,070 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.6 with PID 24704 (E:\WorkSpace\SpringBootProjects\spring-boot-learning\spring-boot-log\target\classes started by DingYihang in E:\WorkSpace\SpringBootProjects\spring-boot-learning)
+2024-04-01 18:49:51,073 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 18:49:51,115 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 18:49:51,116 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 18:49:52,154 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8081 (http)
+2024-04-01 18:49:52,169 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-01 18:49:52,172 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 18:49:52,173 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 18:49:52,225 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 18:49:52,225 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 1108 ms
+2024-04-01 18:49:52,570 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Stopping service [Tomcat]
+2024-04-01 18:51:40,035 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[50][0;39m : Starting LogApplication using Java 17.0.6 with PID 31600 (E:\WorkSpace\SpringBootProjects\spring-boot-learning\spring-boot-log\target\classes started by DingYihang in E:\WorkSpace\SpringBootProjects\spring-boot-learning)
+2024-04-01 18:51:40,037 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[660][0;39m : The following 1 profile is active: "dev"
+2024-04-01 18:51:40,076 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01 18:51:40,076 [INFO] [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[252][0;39m : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01 18:51:40,908 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[109][0;39m : Tomcat initialized with port 8081 (http)
+2024-04-01 18:51:40,920 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-01 18:51:40,924 [INFO] [restartedMain] [36mo.a.c.c.StandardService[173][0;39m : Starting service [Tomcat]
+2024-04-01 18:51:40,925 [INFO] [restartedMain] [36mo.a.c.c.StandardEngine[173][0;39m : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01 18:51:40,973 [INFO] [restartedMain] [36mo.a.c.c.C.[.[.[/][173][0;39m : Initializing Spring embedded WebApplicationContext
+2024-04-01 18:51:40,973 [INFO] [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[296][0;39m : Root WebApplicationContext: initialization completed in 897 ms
+2024-04-01 18:51:41,333 [INFO] [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer[59][0;39m : LiveReload server is running on port 35729
+2024-04-01 18:51:41,347 [INFO] [restartedMain] [36mo.a.c.h.Http11NioProtocol[173][0;39m : Starting ProtocolHandler ["http-nio-8081"]
+2024-04-01 18:51:41,365 [INFO] [restartedMain] [36mo.s.b.w.e.t.TomcatWebServer[241][0;39m : Tomcat started on port 8081 (http) with context path ''
+2024-04-01 18:51:41,382 [INFO] [restartedMain] [36mc.r.b.l.LogApplication[56][0;39m : Started LogApplication in 1.762 seconds (process running for 2.177)
