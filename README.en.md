@@ -1,4 +1,4 @@
-<img src="doc/img/rbc-logo.png" style="width: 40%;" alt="RBC Logo"/>
+<img src="doc/img/rbc-logo-round.png" style="width: 40%;margin-bottom: -50px" alt="RBC Logo"/>
 
 # Spring Boot Learning Project
 ![Spring Boot 3.2.3](https://img.shields.io/badge/Spring%20Boot-3.2.3-brightgreen.svg)
