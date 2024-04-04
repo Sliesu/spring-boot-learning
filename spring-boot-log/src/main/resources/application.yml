@@ -5,13 +5,16 @@ spring:
 
 
 # 在 application.yml 中配置
-
 logging:
   level:
-    root: DEBUG
+    root: info
+    com.rbc.boot.log.controller: debug
   file:
     path: ./logs/
-    name: ./logs/app.log
   pattern:
     console: '%red(%d{yyyy-MM-dd HH:mm:ss}) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger{10}) - %cyan(%msg%n)'
-    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t] %c{1.} [%X{traceId:-}] %msg%n"
+    file: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger : %msg%n'
+  logback:
+    rolling policy:
+      max-file-size: 10MB
+      max-history: 10

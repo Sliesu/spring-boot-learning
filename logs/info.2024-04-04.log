@@ -1,0 +1,21 @@
+[31m15:40:15[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.r.b.l.LogApplication[0;39m - [36mStarting LogApplication using Java 17.0.6 with PID 8004 (E:\WorkSpace\SpringBootProjects\spring-boot-learning\spring-boot-log\target\classes started by DingYihang in E:\WorkSpace\SpringBootProjects\spring-boot-learning)
+[0;39m[31m15:40:15[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.r.b.l.LogApplication[0;39m - [36mThe following 1 profile is active: "dev"
+[0;39m[31m15:40:15[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[31m15:40:15[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[31m15:40:15[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.t.TomcatWebServer[0;39m - [36mTomcat initialized with port 8081 (http)
+[0;39m[31m15:40:15[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.c.h.Http11NioProtocol[0;39m - [36mInitializing ProtocolHandler ["http-nio-8081"]
+[0;39m[31m15:40:15[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.c.c.StandardService[0;39m - [36mStarting service [Tomcat]
+[0;39m[31m15:40:15[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.c.c.StandardEngine[0;39m - [36mStarting Servlet engine: [Apache Tomcat/10.1.19]
+[0;39m[31m15:40:15[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[.[.[/][0;39m - [36mInitializing Spring embedded WebApplicationContext
+[0;39m[31m15:40:15[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [36mRoot WebApplicationContext: initialization completed in 719 ms
+[0;39m[31m15:40:16[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.d.a.OptionalLiveReloadServer[0;39m - [36mLiveReload server is running on port 35729
+[0;39m[31m15:40:16[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.a.c.h.Http11NioProtocol[0;39m - [36mStarting ProtocolHandler ["http-nio-8081"]
+[0;39m[31m15:40:16[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mo.s.b.w.e.t.TomcatWebServer[0;39m - [36mTomcat started on port 8081 (http) with context path ''
+[0;39m[31m15:40:16[0;39m [32m[restartedMain][0;39m [34mINFO [0;39m [1;35mc.r.b.l.LogApplication[0;39m - [36mStarted LogApplication in 1.427 seconds (process running for 1.845)
+[0;39m[31m15:40:42[0;39m [32m[http-nio-8081-exec-1][0;39m [34mINFO [0;39m [1;35mo.a.c.c.C.[.[.[/][0;39m - [36mInitializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[31m15:40:42[0;39m [32m[http-nio-8081-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.w.s.DispatcherServlet[0;39m - [36mInitializing Servlet 'dispatcherServlet'
+[0;39m[31m15:40:42[0;39m [32m[http-nio-8081-exec-1][0;39m [34mINFO [0;39m [1;35mo.s.w.s.DispatcherServlet[0;39m - [36mCompleted initialization in 1 ms
+[0;39m[31m15:40:42[0;39m [32m[http-nio-8081-exec-1][0;39m [34mINFO [0;39m [1;35mc.r.b.l.c.LogTestController[0;39m - [36mInfo 日志...
+[0;39m[31m15:40:42[0;39m [32m[http-nio-8081-exec-1][0;39m [34mINFO [0;39m [1;35mc.r.b.l.i.AccessLogInterceptor[0;39m - [36mAccessLog(username=null, uri=/logTest, duration=18, httpMethod=GET, httpStatus=200, ip=127.0.0.1, createTime=Thu Apr 04 15:40:42 CST 2024)
+[0;39m[31m15:40:42[0;39m [32m[http-nio-8081-exec-1][0;39m [34mINFO [0;39m [1;35mc.r.b.l.i.AccessLogInterceptor[0;39m - [36mafterCompletion... 
+[0;39m

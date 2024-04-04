@@ -1,11 +1,13 @@
 <configuration>
     <springProperty scope="context" name="PROJ_NAME" source="spring.application.name"/>
     <springProperty scope="context" name="ENV" source="spring.profiles.active"/>
-
-    <property name="PATTERN" value="%d [%p] [%t] %cyan(%c{5}[%L]) : %msg%n"/>
-
+    <!--日志格式化配置-->
+    <property name="PATTERN"
+              value="%red(%d{HH:mm:ss}) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger{10}) - %cyan(%msg%n)"/>
+    <!--日志文件路径配置-->
     <property name="LOGS_FILE_PATH" value="./logs/"/>
 
+    <!--info 级别日志文件配置-->
     <appender name="INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>INFO</level>
@@ -20,6 +22,8 @@
             <pattern>${PATTERN}</pattern>
         </layout>
     </appender>
+
+    <!--warn 级别日志文件配置-->
     <appender name="WARN_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>WARN</level>
@@ -34,6 +38,8 @@
             <pattern>${PATTERN}</pattern>
         </layout>
     </appender>
+
+    <!--error 级别日志文件配置-->
     <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>ERROR</level>
@@ -48,6 +54,8 @@
             <pattern>${PATTERN}</pattern>
         </layout>
     </appender>
+
+    <!--控制台输出日志配置-->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>${PATTERN}</pattern>
@@ -58,7 +66,8 @@
     <springProfile name="dev">
         <logger name="org.hibernate.SQL" level="DEBUG"/>
         <root level="info">
-            <appender-ref ref="CONSOLE" />
+            <!--正常只需要 CONSOLE-->
+            <appender-ref ref="CONSOLE"/>
             <appender-ref ref="INFO_FILE"/>
             <appender-ref ref="WARN_FILE"/>
             <appender-ref ref="ERROR_FILE"/>
