@@ -154,10 +154,9 @@ class UserServiceImplTest {
      */
     @Test
     void selectPage(){
-        Page<UserDO> page = new Page<>(2, 2);
+        Page<UserDO> page = new Page<>(1, 2);
         IPage<UserDO> userIPage = userMapper.selectPage(page, null);
         System.out.println(userIPage);
-
     }
 
 
