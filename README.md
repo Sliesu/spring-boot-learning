@@ -9,7 +9,7 @@
 
 @RainbowCloud_CrispShark
 
-**一、Spring Boot起步练习**
+**1. Spring Boot起步练习**
 
 模块名称：`spring-boot-quickstart`
 
@@ -18,7 +18,7 @@
 
 ------
 
-**二、Spring Boot配置管理**
+**2. Spring Boot配置管理**
 
 模块名称：`spring-boot-config`
 
@@ -27,18 +27,18 @@
 
 ------
 
-**三、Spring Boot整合静态资源与模板引擎**
+**3. Spring Boot整合静态资源与模板引擎**
 
 模块名称：`spring-boot-template`
 
 模块描述：
 本模块示Spring Boot如何整合静态资源和模板引擎编写一个门户网站。学习如何将静态资源放置在正确的位置，以便Spring Boot能够自动识别和加载。学习如何使用模板引擎来构建静态页面，使用bootstrap框架仿制简书的推荐用户界面。
 
-<img src="doc\img\jianshu-page.png" style="width: 40%;" alt="RBC Logo"/>
+<img src="doc/img/jianshu-page.png" style="width: 40%;" alt="仿简书页面"/>
 
 ------
 
-**四、Spring Boot整合数据库框架**
+**4. Spring Boot整合数据库框架**
 
 模块名称：`spring-boot-database`
 
@@ -47,7 +47,7 @@
 
 ------
 
-**五、Spring Boot整合Mybatis综合练习**
+**5. Spring Boot整合Mybatis综合练习**
 
 模块名称：`spring-boot-mybatis`
 
@@ -56,7 +56,7 @@
 
 ------
 
-**六、Spring Boot整合Mybatis-plus综合练习**
+**5.5. Spring Boot整合Mybatis-plus综合练习**
 
 模块名称：`spring-boot-mybatis-plus`和`spring-boot-mp`
 
@@ -65,12 +65,23 @@
 
 ------
 
-**七、Spring Boot日志框架与日志管理**
+**6. Spring Boot日志框架与日志管理**
 
 模块名称：`spring-boot-log`
 
 模块描述：
 本模块学习如何在Spring Boot中配置和管理日志,包括:使用Spring Boot默认的Logback日志框架、使用log4j2日志框架、配置log4j2的日志级别、配置log4j2的日志格式、配置log4j2的日志路径(控制台,文件,滚动文件等)、使用Spring Boot提供的Logging系统。
+
+------
+
+**7. 全局统一异常处理**
+
+模块名称：`spring-boot-exception`
+
+模块描述：
+本模块学习如何在Spring Boot中实现通用全局异常处理逻辑,自定义异常和相关数据结构,以及使用Spring Validation进行数据校验。包括以下内容:自定义异常类 ，使用Spring Validation进行数据校验，在业务层方法参数上使用@Valid注解进行数据校验 自定义校验规则
+
+<img src="doc/img/add-user-page.png" style="width: 40%;" alt="统一异常处理前后端联调起前端页面"/>
 
 ------
 
