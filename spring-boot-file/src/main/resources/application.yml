@@ -1,0 +1,21 @@
+file:
+  upload-path: D:/data/upload
+
+spring:
+  web:
+    resources:
+      static-locations: classpath:/static/, file:D:/data/upload/
+
+minio:
+  endPoint: http://43.137.12.232:9000
+  accessKey: admin
+  secretKey: admin123
+  bucketName: dyh
+
+servlet:
+  multipart:
+    max-file-size: 10485760 # 上传文件大小限定为10M
+    max-request-size: 10485760
+
+
+

@@ -87,6 +87,18 @@ This module covers how to implement a general global exception handling logic in
 
 ------
 
+**8. Integrating Distributed File Systems**
+
+Module Name: `spring-boot-file`
+
+Module Description:
+This module demonstrates how to integrate distributed file systems into a Spring Boot project, including local file upload and access services, as well as integration with MinIO and Alibaba Cloud OSS solutions. The specific contents include:
+
+- Implementation of local file upload and access services.
+- Introduction to MinIO object storage service and integration with Spring Boot for file storage and access.
+- Introduction to Alibaba Cloud Object Storage Service (OSS) and integration with Spring Boot for file storage and access.
+
+------
 **Pending: Spring Boot Integration with Redis Cache Database**
 
 Module Name: `spring-boot-redis`

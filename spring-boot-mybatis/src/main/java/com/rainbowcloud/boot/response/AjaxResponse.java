@@ -3,7 +3,7 @@ package com.rainbowcloud.boot.response;
 import lombok.Data;
 
 /**
- * @author mqxu
+ * @author DingYihang
  * @date 2024/2/26
  * @description AjaxResponse
  **/

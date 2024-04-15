@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * @description: ArticleController
- * @author: mqxu
+ * @author: DingYihang
  * @date: 2022-03-10
  **/
 
@@ -43,7 +43,7 @@ public class ArticleController {
         List<Reader> readerList = List.of(Reader.builder().name("aaa").age(12).build(), Reader.builder().name("bbb").age(13).build());
         Article article = Article.builder()
                 .id(id)
-                .author("mqxu")
+                .author("DingYihang")
                 .content("SpringBoot 从青铜到王者")
                 .title("SpringBoot")
                 .readerList(readerList)
@@ -75,7 +75,7 @@ public class ArticleController {
         List<Reader> readerList = List.of(Reader.builder().name("aaa").age(12).build(), Reader.builder().name("bbb").age(13).build());
         Article article = Article.builder()
                 .id(111L)
-                .author("mqxu")
+                .author("DingYihang")
                 .content("SpringBoot")
                 .title("SpringBoot")
                 .readerList(readerList)
@@ -83,7 +83,7 @@ public class ArticleController {
                 .build();
         Article article2 = Article.builder()
                 .id(222L)
-                .author("mqxu")
+                .author("DingYihang")
                 .content("Java")
                 .title("Java")
                 .readerList(readerList)
@@ -119,7 +119,7 @@ public class ArticleController {
     @PostMapping("param")
     public AjaxResponse saveArticleByParams(
             @RequestParam long id,
-            @RequestParam(value = "author", defaultValue = "mqxu", required = false) String author,
+            @RequestParam(value = "author", defaultValue = "DingYihang", required = false) String author,
             @RequestParam String title,
             @RequestParam String content,
             @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
