@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+###aliyun-oss.properties###
+aliyun-oss.properties
