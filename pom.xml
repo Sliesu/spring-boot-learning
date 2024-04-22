@@ -22,6 +22,7 @@
         <module>spring-boot-database</module>
         <module>spring-boot-log</module>
         <module>spring-boot-exception</module>
+        <module>spring-boot-redis-example</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
