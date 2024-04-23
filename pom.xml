@@ -23,6 +23,8 @@
         <module>spring-boot-log</module>
         <module>spring-boot-exception</module>
         <module>spring-boot-redis-example</module>
+        <module>spring-boot-cache</module>
+        <module>spring-boot-cache</module>
     </modules>
     <packaging>pom</packaging>
     <properties>

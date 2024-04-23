@@ -99,9 +99,9 @@ This module demonstrates how to integrate distributed file systems into a Spring
 - Introduction to Alibaba Cloud Object Storage Service (OSS) and integration with Spring Boot for file storage and access.
 
 ------
-**Pending: Spring Boot Integration with Redis Cache Database**
+**9: Spring Boot Integration with Redis Cache Database**
 
-Module Name: `spring-boot-redis`
+Module Name: `spring-boot-cache` and `spring-boot-reids-example`
 
 Module Description:
 This module focuses on how to use Spring Boot to integrate with the Redis cache database. It covers: How to use Spring Boot to integrate with Redis, how to use the RedisTemplate to operate Redis, and how to use Redis caching to improve system performance.

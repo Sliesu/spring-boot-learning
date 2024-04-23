@@ -31,8 +31,8 @@ class UserServiceTest {
     @Test
     void testSetValueAndGetValue() {
         // Given
-        String key = "testKey";
-        String value = "testValue";
+        String key = "hello";
+        String value = "world";
 
         // When
         userService.setValue(key, value);

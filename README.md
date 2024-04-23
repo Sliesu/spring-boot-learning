@@ -98,9 +98,9 @@
 
 ------
 
-**待定、Spring Boot整合Redis缓存数据库**
+**9、Spring Boot整合Redis缓存数据库**
 
-模块名称：`spring-boot-redis`
+模块名称：`spring-boot-cache`和`spring-boot-reids-example`
 
 模块描述：
-本模块学习如何使用Spring Boot整合Redis缓存数据库。学习使用Spring Boot整合Redis，如何使用RedisTemplate操作Redis，如何使用Redis缓存数据，提高系统性能。
+本模块学习如何使用Spring Boot整合Redis缓存数据库。学习使用Spring Boot整合Redis，如何使用RedisTemplate操作Redis，如何使用Redis缓存数据，提高系统性能。并且集成容联云短信服务，实现短信验证码功能。
