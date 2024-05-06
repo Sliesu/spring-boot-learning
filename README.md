@@ -104,3 +104,15 @@
 
 模块描述：
 本模块学习如何使用Spring Boot整合Redis缓存数据库。学习使用Spring Boot整合Redis，如何使用RedisTemplate操作Redis，如何使用Redis缓存数据，提高系统性能。并且集成容联云短信服务，实现短信验证码功能。
+
+------
+
+**10、Spring Boot中使用拦截器和过滤器**
+
+模块名称：`spring-boot-filter-interceptor`
+
+模块描述：
+本模块介绍了在Spring Boot项目中如何使用拦截器和过滤器进行请求的拦截和处理。具体内容包括： 使用Spring Boot中的拦截器实现对请求的拦截和处理。 使用Spring Boot中的过滤器实现对请求和响应的拦截和处理。 拦截器和过滤器的区别和适用场景。
+如何在Spring Boot中注册和配置拦截器和过滤器。 示例演示：实现对请求进行身份认证的拦截器和过滤器。
+
+
