@@ -26,6 +26,9 @@
         <module>spring-boot-cache</module>
         <module>spring-boot-cache</module>
         <module>spring-boot-filter-interceptor</module>
+        <module>spring-boot-mail</module>
+        <module>spring-boot-mail</module>
+        <module>spring-boot-task</module>
     </modules>
     <packaging>pom</packaging>
     <properties>

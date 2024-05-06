@@ -105,3 +105,33 @@ Module Name: `spring-boot-cache` and `spring-boot-reids-example`
 
 Module Description:
 This module focuses on how to use Spring Boot to integrate with the Redis cache database. It covers: How to use Spring Boot to integrate with Redis, how to use the RedisTemplate to operate Redis, and how to use Redis caching to improve system performance.
+
+------
+**10. Using Interceptors and Filters in Spring Boot**
+
+Module Name: `spring-boot-filter-interceptor`
+
+Module Description:
+This module guides us on how to utilize interceptors and filters to intercept and process requests in a Spring Boot project. It covers the following specifics:
+
+Implementing request interception and processing using interceptors in Spring Boot.
+Implementing request and response interception and processing using filters in Spring Boot.
+Differentiating between interceptors and filters and understanding their applicable scenarios.
+How to register and configure interceptors and filters in Spring Boot.
+Demonstrative examples: Implementing interceptors and filters for request authentication in Spring Boot.
+By completing this module, we gain a comprehensive understanding of interceptors and filters and how to effectively utilize them in Spring Boot applications for request handling and processing.
+
+------
+**11. Integrating Email Sending in Spring Boot**
+
+Module Name: `spring-boot-mail`
+
+Module Description:
+In this module, we delve into implementing email sending functionality in a Spring Boot project. We explore configuring Spring Boot for email sending, utilizing JavaMailSender for sending emails, handling email templates, and addressing potential exceptions during the email sending process. Through this module, we equip our application with the capability to send emails, thus enhancing its functionality and improving user experience.
+------
+**12. Implementing Asynchronous Operations and Scheduled Tasks in Spring Boot**
+
+Module Name: `spring-boot-task`
+
+Module Description:
+In this module, we discuss implementing asynchronous operations and scheduled tasks in a Spring Boot application. Firstly, we learn how to use the @Async annotation to implement asynchronous methods, thereby enhancing system concurrency and performance. Subsequently, we introduce the usage of the @Scheduled annotation to execute tasks at fixed intervals or specific times. Through this module, we enrich our application with additional functionality and flexibility, thereby improving system efficiency and reliability.
