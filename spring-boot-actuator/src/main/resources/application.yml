@@ -1,0 +1,22 @@
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8081
+  application:
+    name: spring-boot-actuator
+management:
+  endpoint:
+    health:
+      show-details: always
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        ## 开放访问的服务端点
+        include: '*'
+        ## 不暴露对外开放的服务端点
+        exclude: mappings
+server:
+  port: 8081

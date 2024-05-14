@@ -1,4 +1,4 @@
-<img src="doc/img/rbc-logo.png" style="width: 40%;margin-bottom: -50px" alt="RBC Logo"/>
+<img src="doc/img/rbc-logo.png" style="width: 40%;margin-bottom: -80px" alt="RBC Logo"/>
 
 # Spring Boot 学习项目
 ![Spring Boot 3.2.3](https://img.shields.io/badge/Spring%20Boot-3.2.3-brightgreen.svg)
@@ -122,7 +122,7 @@
 模块名称：`spring-boot-mail`
 
 模块描述：
-在这个模块中，我们学习如何在 Spring Boot 项目中实现邮件发送功能。我们将探讨如何配置 Spring Boot 以便发送电子邮件，以及如何使用 JavaMailSender 实现邮件发送。此外，我们还将学习如何处理邮件模板，以及如何处理邮件发送过程中可能出现的异常情况。通过这个模块，我们可以使我们的应用程序具备发送邮件的能力，从而实现更多样化的功能和更好的用户体验。
+在这个模块中，我们学习如何在 Spring Boot 项目中实现邮件发送功能。学习如何配置 Spring Boot 以便发送电子邮件，以及如何使用 JavaMailSender 实现邮件发送。此外，还将学习如何处理邮件模板，以及如何处理邮件发送过程中可能出现的异常情况。通过这个模块，我们可以使我们的应用程序具备发送邮件的能力，从而实现更多样化的功能和更好的用户体验。
 
 ------
 
@@ -131,5 +131,24 @@
 模块名称：`spring-boot-task`
 
 模块描述：
-在这个模块中，我们将探讨如何在 Spring Boot 应用程序中实现异步操作和定时调度。首先，我们会学习如何使用 @Async 注解来实现异步方法，从而提高系统的并发能力和性能。然后，我们将介绍如何使用 @Scheduled 注解来实现定时任务，例如在固定的时间间隔或特定的时间点执行某些任务。通过这个模块的学习，我们可以为我们的应用程序添加更多的功能和灵活性，提高系统的效率和可靠性。
+在这个模块中，学习 Spring Boot 应用程序中实现异步操作和定时调度。首先，学习如何使用 @Async 注解来实现异步方法，从而提高系统的并发能力和性能。如何使用 @Scheduled 注解来实现定时任务，例如在固定的时间间隔或特定的时间点执行某些任务。
 
+------
+
+**13、服务器推送技术**
+
+模块名称：`spring-boot-websocket`
+
+模块描述：在这个模块中，将学习利用 Spring Boot 中的 WebSocket 实现实时数据传输。WebSocket 提供了一种在客户端和服务器之间建立持久连接的方式，可以实现双向通信，适用于需要实时更新数据的场景。通过这个模块，学习如何在 Spring Boot 项目中集成 WebSocket，并利用它来实现服务器推送，从而实现更加灵活和实时的数据交互。
+
+------
+
+**14、应用程序监控管理**
+
+模块名称：`spring-boot-actuator`
+
+模块描述：在这个模块中，将学习如何在 Spring Boot 应用程序中实现应用程序监控和管理功能。通过集成监控工具，我们可以实时监控应用程序的运行状态、性能指标和异常情况，以便及时发现并解决问题。
+
+<img src="doc/img/actuator.png" style="width: 40%;" alt="Spring Boot Admin 界面化监控"/>
+
+------

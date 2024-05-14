@@ -29,6 +29,8 @@
         <module>spring-boot-mail</module>
         <module>spring-boot-mail</module>
         <module>spring-boot-task</module>
+        <module>spring-boot-websocket</module>
+        <module>spring-boot-actuator</module>
     </modules>
     <packaging>pom</packaging>
     <properties>

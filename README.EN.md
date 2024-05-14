@@ -135,3 +135,24 @@ Module Name: `spring-boot-task`
 
 Module Description:
 In this module, we discuss implementing asynchronous operations and scheduled tasks in a Spring Boot application. Firstly, we learn how to use the @Async annotation to implement asynchronous methods, thereby enhancing system concurrency and performance. Subsequently, we introduce the usage of the @Scheduled annotation to execute tasks at fixed intervals or specific times. Through this module, we enrich our application with additional functionality and flexibility, thereby improving system efficiency and reliability.
+
+------
+**13. Server Push Technology**
+
+Module Name: `spring-boot-websocket`
+
+Module Description:
+This module focuses on utilizing Spring Boot's WebSocket to achieve real-time data transmission. WebSocket provides a way to establish a persistent connection between clients and servers, enabling bidirectional communication, suitable for scenarios requiring real-time data updates. Through this module, you'll learn how to integrate WebSocket into a Spring Boot project and utilize it for server push, thus facilitating more flexible and real-time data interaction.
+
+------
+
+**14. Application Monitoring and Management**
+
+Module Name: `spring-boot-actuator`
+
+Module Description:
+In this module, you will learn how to implement application monitoring and management functionalities in a Spring Boot application. By integrating monitoring tools, we can monitor the running status, performance metrics, and exceptions of the application in real-time, facilitating timely detection and resolution of issues.
+
+<img src="doc/img/actuator.png" style="width: 40%;" alt="Spring Boot Admin Interface Monitoring"/>
+
+------
