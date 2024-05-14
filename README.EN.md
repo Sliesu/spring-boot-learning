@@ -128,6 +128,7 @@ Module Name: `spring-boot-mail`
 
 Module Description:
 In this module, we delve into implementing email sending functionality in a Spring Boot project. We explore configuring Spring Boot for email sending, utilizing JavaMailSender for sending emails, handling email templates, and addressing potential exceptions during the email sending process. Through this module, we equip our application with the capability to send emails, thus enhancing its functionality and improving user experience.
+
 ------
 **12. Implementing Asynchronous Operations and Scheduled Tasks in Spring Boot**
 
