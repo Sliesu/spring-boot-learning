@@ -1,0 +1,15 @@
+spring:
+  freemarker:
+    request-context-attribute: request
+    prefix: /templates/
+    suffix: .html
+    content-type: text/html
+    enabled: true
+    cache: false
+    charset: UTF-8
+    allow-request-override: false
+    expose-request-attributes: true
+    expose-session-attributes: true
+    expose-spring-macro-helpers: true
+    template-loader-path: classpath:/templates/  # 修改这里，将 template 改为 templates
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sse-demo2</title>
+</head>
+<body>
+<div id="result">
+</div>
+<script>
+    //需要判断浏览器支不支持，可以去w3c进行查看
+    const source = new EventSource('http://localhost:8080/server/data');
+    source.onmessage = function (event) {
+        console.info(event.data);
+        document.getElementById('result').innerText = event.data
+    };
+</script>
+</body>
+</html>

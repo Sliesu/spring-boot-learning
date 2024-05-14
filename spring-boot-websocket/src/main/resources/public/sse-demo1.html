@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sse-demo1</title>
+</head>
+<body>
+<div id="msg_from_server">
+</div>
+<script>
+    if (!!window.EventSource) {
+        let source = new EventSource('http://localhost:8080/server/info');
+        let s = '';
+        source.addEventListener('open', () => {
+            console.log("连接打开.");
+        }, false);
+        source.addEventListener('message', (e) => {
+            s += e.data + "<br/>"
+            document.getElementById("msg_from_server").innerHTML = s;
+        });
+        source.addEventListener('error', (e) => {
+            if (e.readyState === EventSource.CLOSED) {
+                console.log("连接关闭");
+            } else {
+                console.log(e.readyState);
+            }
+        }, false);
+    } else {
+        alert(4);
+        console.log("没有sse");
+    }
+</script>
+</body>
+</html>
