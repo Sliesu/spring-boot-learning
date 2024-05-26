@@ -41,7 +41,7 @@ rbc:
     ccp:
       serveIP: app.cloopen.com
       port: 8883
-      accountSId: 2c94811c8cd4da0a018f047871856ab5
-      accountToken: b84ebec7313344378e8e3f02e7bd6616
-      appID: 2c94811c8cd4da0a018f047873166abc
+      accountSId: 
+      accountToken: 
+      appID: 
       templateId: 1 # 短信模板ID
